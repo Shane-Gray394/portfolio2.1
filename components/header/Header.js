@@ -12,6 +12,9 @@ import classes from './Header.module.css';
 import Link from 'next/link';
 import { useMediaQuery } from '@chakra-ui/react';
 import { ChevronDownIcon } from '@chakra-ui/icons';
+import { CgProfile } from 'react-icons/cg';
+import { AiOutlineFolderOpen } from 'react-icons/ai';
+import { RiContactsBook2Line } from 'react-icons/ri';
 
 export const Header = () => {
   const [isLargerThan30] = useMediaQuery('(min-width: 30em)');
@@ -49,13 +52,21 @@ export const Header = () => {
         </Menu>
       ) : (
         <ButtonGroup spacing="10" mr="20">
-          <Button color="#f7f5fb" variant="link">
+          <Button rightIcon={<CgProfile />} color="#f7f5fb" variant="link">
             <Link href="#about">About</Link>
           </Button>
-          <Button color="#f7f5fb" variant="link">
+          <Button
+            rightIcon={<AiOutlineFolderOpen />}
+            color="#f7f5fb"
+            variant="link"
+          >
             <Link href="#projects">Projects</Link>
           </Button>
-          <Button color="#f7f5fb" variant="link">
+          <Button
+            rightIcon={<RiContactsBook2Line />}
+            color="#f7f5fb"
+            variant="link"
+          >
             <Link href="#contact">Contact</Link>
           </Button>
         </ButtonGroup>
