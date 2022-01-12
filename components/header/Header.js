@@ -29,7 +29,7 @@ export const Header = () => {
       pb="25"
       height={['20vh', '15vh']}
     >
-      <Image src="logo3.png" alt="logo" pl="10" />
+      <Image src="logo.png" alt="logo" pl="10" />
       {isSmallerThan ? (
         <Menu>
           <MenuButton mr="3" as={Button} rightIcon={<ChevronDownIcon />}>

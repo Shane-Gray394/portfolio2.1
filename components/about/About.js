@@ -46,7 +46,7 @@ export const About = () => {
               borderRadius={['115px', '200px']}
               boxSize={['230px', '400px']}
               objectFit="cover"
-              src="me6.png"
+              src="me.png"
               alt="pic of me"
               boxShadow="dark-lg"
               align="top"
