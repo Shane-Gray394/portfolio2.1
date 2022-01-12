@@ -21,8 +21,8 @@ export const Footer = () => {
           rel="noreferrer"
         >
           Created by Shane Gray © 2022
-        </a>
-        ❙
+        </a>{' '}
+        ❙{' '}
         <a
           href="https://www.linkedin.com/in/william-paris-jr-692415154/"
           target="_blank"
