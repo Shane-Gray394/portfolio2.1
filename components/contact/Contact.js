@@ -56,13 +56,13 @@ export const Contact = () => {
         borderRadius={8}
         boxShadow="dark-lg"
         backgroundColor="#81b29a"
-        height="40vh"
+        height={['60vh', '40vh']}
         overflow="scroll"
         className="scroll"
         width={['80%', '40%']}
         mt={['25%', '10%']}
       >
-        <Stack>
+        <Stack spacing={[10, 4]}>
           <a
             href="https://www.linkedin.com/in/shanegray394/"
             target="_blank"
