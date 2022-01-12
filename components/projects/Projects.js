@@ -1,12 +1,4 @@
-import {
-  Flex,
-  Box,
-  SimpleGrid,
-  Container,
-  Image,
-  Text,
-  Button,
-} from '@chakra-ui/react';
+import { Flex, SimpleGrid } from '@chakra-ui/react';
 import classes from './Projects.module.css';
 import { data } from '../../data';
 import { useState } from 'react';
