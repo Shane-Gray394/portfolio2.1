@@ -1,13 +1,4 @@
-import {
-  Flex,
-  Box,
-  SimpleGrid,
-  Container,
-  Image,
-  Stack,
-  Button,
-  ButtonGroup,
-} from '@chakra-ui/react';
+import { Flex, Box, Stack, Button, ButtonGroup } from '@chakra-ui/react';
 import { useState } from 'react';
 import classes from './Contact.module.css';
 import { SiLinkedin, SiGithub, SiTwitter } from 'react-icons/si';
@@ -51,7 +42,7 @@ export const Contact = () => {
     <Flex className={classes.scrollSnapChild} justify="center" height="85vh">
       <Flex
         justify="center"
-        pt={['10%', '3%']}
+        pt={['10%', '7%', '5%', '4%', '3%']}
         borderWidth={1}
         borderRadius={8}
         boxShadow="dark-lg"

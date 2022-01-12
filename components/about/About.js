@@ -2,11 +2,9 @@ import {
   Flex,
   Box,
   SimpleGrid,
-  Container,
   Image,
   Text,
   Heading,
-  Spacer,
   Stack,
 } from '@chakra-ui/react';
 import classes from './About.module.css';
@@ -46,7 +44,7 @@ export const About = () => {
         width={['80%', '60%']}
       >
         <SimpleGrid columns={{ lg: 2, sm: 1 }} spacing={10}>
-          <Box align={['center', 'left']}>
+          <Box align="center">
             <Image
               borderRadius={['115px', '200px']}
               boxSize={['230px', '400px']}
@@ -86,7 +84,7 @@ export const About = () => {
             <Heading pb="3%" pt="1%">
               Technologies
             </Heading>
-            <SimpleGrid columns={[3, 6]}>
+            <SimpleGrid columns={[3, 3, 4, 4, 6]}>
               <AiFillGithub
                 className={classes.iconSize}
                 aria-label="github logo"

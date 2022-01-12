@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { Project } from './Project';
 
 export const Projects = () => {
-  const [projects, setProjects] = useState(data);
+  const [projects] = useState(data);
   return (
     <Flex className={classes.scrollSnapChild} justify="center">
       <Flex
