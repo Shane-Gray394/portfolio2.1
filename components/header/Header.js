@@ -20,7 +20,7 @@ export const Header = () => {
     <Flex
       justify="space-between"
       className={classes.scrollSnapChild}
-      backgroundColor="#000"
+      backgroundColor="#003049"
       borderWidth="full"
       borderBottomRadius={3}
       boxShadow="lg"
@@ -29,7 +29,7 @@ export const Header = () => {
       pb="25"
       height={['20vh', '15vh']}
     >
-      <Image src="logo.png" alt="logo" pl="10" />
+      <Image src="logo3.png" alt="logo" pl="10" />
       {isSmallerThan ? (
         <Menu>
           <MenuButton mr="3" as={Button} rightIcon={<ChevronDownIcon />}>
@@ -49,13 +49,13 @@ export const Header = () => {
         </Menu>
       ) : (
         <ButtonGroup spacing="10" mr="20">
-          <Button variant="link">
+          <Button color="#f7f5fb" variant="link">
             <Link href="#about">About</Link>
           </Button>
-          <Button variant="link">
+          <Button color="#f7f5fb" variant="link">
             <Link href="#projects">Projects</Link>
           </Button>
-          <Button variant="link">
+          <Button color="#f7f5fb" variant="link">
             <Link href="#contact">Contact</Link>
           </Button>
         </ButtonGroup>

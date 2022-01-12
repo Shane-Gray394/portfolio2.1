@@ -22,7 +22,7 @@ export const Projects = () => {
         borderWidth={1}
         borderRadius={8}
         boxShadow="dark-lg"
-        backgroundColor="gray"
+        backgroundColor="#81b29a"
         height="85vh"
         overflow="scroll"
         className="scroll"

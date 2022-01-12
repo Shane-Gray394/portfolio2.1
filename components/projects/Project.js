@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 
 export const Project = (props) => {
-  const { title, image, webURL, gitHubURL } = props.project;
+  const { title, image, webURL, gitHubURL, description } = props.project;
   return (
     <Center py={6}>
       <Stack
@@ -21,8 +21,9 @@ export const Project = (props) => {
         height={{ sm: '476px', md: '20rem' }}
         direction={{ base: 'column', md: 'row' }}
         bg={useColorModeValue('white', 'gray.900')}
-        boxShadow={'2xl'}
+        boxShadow="dark-lg"
         padding={4}
+        background="#f4f1de"
       >
         <Flex flex={1}>
           <Image
@@ -47,8 +48,7 @@ export const Project = (props) => {
           </Heading>
 
           <Text textAlign={'center'} px={3}>
-            Actress, musician, songwriter and artist. PM for work inquires or me
-            in your posts
+            {description}
           </Text>
 
           <Stack
@@ -61,6 +61,7 @@ export const Project = (props) => {
           >
             <a href={webURL} target="_blank" rel="noreferrer">
               <Button
+                bg="#f7f5fb"
                 flex={1}
                 fontSize={'sm'}
                 rounded={'full'}
@@ -76,7 +77,7 @@ export const Project = (props) => {
                 flex={1}
                 fontSize={'sm'}
                 rounded={'full'}
-                bg={'blue.400'}
+                bg="#084887"
                 color={'white'}
                 boxShadow={
                   '0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)'

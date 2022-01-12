@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Shane Gray&apos;s Portfolio</title>
       </Head>
-      <Box backgroundColor="white">
+      <Box backgroundColor="#f4f1de">
         <Box id="about" height="100vh" className="scrollSnapChild">
           <Box>
             <Header />

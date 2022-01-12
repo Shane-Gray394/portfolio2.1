@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <Flex
       justify="center"
-      backgroundColor="#000"
+      backgroundColor="#003049"
       borderWidth="full"
       borderTopRadius={3}
       boxShadow="lg"
@@ -14,7 +14,7 @@ export const Footer = () => {
       height="15vh"
       textAlign="center"
     >
-      <Text color="#fff" maxWidth="80%">
+      <Text color="#f7f5fb" maxWidth="80%">
         Created by Shane Gray © 2022 ❙ Logo Created by William Paris © 2021
       </Text>
     </Flex>

@@ -9,11 +9,12 @@ export const Contact = () => {
         borderWidth={1}
         borderRadius={8}
         boxShadow="dark-lg"
-        backgroundColor="gray"
+        backgroundColor="#81b29a"
         height="40vh"
         overflow="scroll"
         className="scroll"
         width={['80%', '40%']}
+        mt="10%"
       ></Flex>
     </Flex>
   );
