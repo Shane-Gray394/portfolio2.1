@@ -35,7 +35,7 @@ export const Header = () => {
           <MenuButton mr="3" as={Button} rightIcon={<ChevronDownIcon />}>
             Menu
           </MenuButton>
-          <MenuList>
+          <MenuList backgroundColor="#f4f1de">
             <Link href="#about" passHref>
               <MenuItem as="a">About</MenuItem>
             </Link>

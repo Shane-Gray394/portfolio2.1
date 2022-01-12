@@ -8,6 +8,23 @@ import {
   Heading,
   Spacer,
 } from '@chakra-ui/react';
+import classes from './About.module.css';
+import {
+  SiNextdotjs,
+  SiJavascript,
+  SiCss3,
+  SiHtml5,
+  SiNodedotjs,
+  SiPostgresql,
+  SiSqlite,
+  SiMongodb,
+  SiChakraui,
+  SiMaterialui,
+  SiAntdesign,
+} from 'react-icons/si';
+import { AiFillGithub } from 'react-icons/ai';
+import { DiGit } from 'react-icons/di';
+import { FaReact } from 'react-icons/fa';
 
 export const About = () => {
   return (
@@ -44,7 +61,7 @@ export const About = () => {
             textAlign="center"
             mr={['0%', '15%']}
           >
-            <Heading pb="10%">About Me</Heading>
+            <Heading pb="2%">About Me</Heading>
             <Text>
               My name is Shane Gray, and I&apos;m a web developer from La
               Grange, Kentucky. I&apos;m currently attending Bloom Institute of
@@ -56,6 +73,27 @@ export const About = () => {
               learned thus far. It will be updated throughout my time here, as I
               learn more.
             </Text>
+            <Heading pb="3%" pt="1%">
+              Technologies
+            </Heading>
+            <Flex justify="center">
+              <AiFillGithub className={classes.iconSize} />
+              <DiGit className={classes.iconSize} />
+              <FaReact className={classes.iconSize} />
+              <SiJavascript className={classes.iconSize} />
+              <SiCss3 className={classes.iconSize} />
+              <SiHtml5 className={classes.iconSize} />
+              <SiNodedotjs className={classes.iconSize} />
+            </Flex>
+            <Flex justify="center">
+              <SiNextdotjs className={classes.iconSize} />
+              <SiPostgresql className={classes.iconSize} />
+              <SiSqlite className={classes.iconSize} />
+              <SiMongodb className={classes.iconSize} />
+              <SiChakraui className={classes.iconSize} />
+              <SiMaterialui className={classes.iconSize} />
+              <SiAntdesign className={classes.iconSize} />
+            </Flex>
           </Box>
         </SimpleGrid>
       </Box>
