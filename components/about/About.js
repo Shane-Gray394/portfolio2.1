@@ -87,24 +87,36 @@ export const About = () => {
               Technologies
             </Heading>
             <SimpleGrid columns={[3, 6]}>
-              <AiFillGithub className={classes.iconSize} />
-              <DiGit className={classes.iconSize} />
-              <FaReact className={classes.iconSize} />
-              <SiJavascript className={classes.iconSize} />
-              <SiCss3 className={classes.iconSize} />
-              <SiHtml5 className={classes.iconSize} />
-              <SiNodedotjs className={classes.iconSize} />
-              <SiNextdotjs className={classes.iconSize} />
-              <SiPostgresql className={classes.iconSize} />
-              <SiSqlite className={classes.iconSize} />
-              <SiMongodb className={classes.iconSize} />
-              <SiChakraui className={classes.iconSize} />
-              <SiMaterialui className={classes.iconSize} />
-              <SiAntdesign className={classes.iconSize} />
-              <SiVisualstudiocode className={classes.iconSize} />
-              <SiVercel className={classes.iconSize} />
-              <SiHeroku className={classes.iconSize} />
-              <SiNetlify className={classes.iconSize} />
+              <AiFillGithub className={classes.iconSize} alt="github logo" />
+              <DiGit className={classes.iconSize} alt="git logo" />
+              <FaReact className={classes.iconSize} alt="react logo" />
+              <SiJavascript
+                className={classes.iconSize}
+                alt="javascript logo"
+              />
+              <SiCss3 className={classes.iconSize} alt="css3 logo" />
+              <SiHtml5 className={classes.iconSize} alt="html5 logo" />
+              <SiNodedotjs className={classes.iconSize} alt="nodejs logo" />
+              <SiNextdotjs className={classes.iconSize} alt="nextjs logo" />
+              <SiPostgresql
+                className={classes.iconSize}
+                alt="postgresql logo"
+              />
+              <SiSqlite className={classes.iconSize} alt="sqlite logo" />
+              <SiMongodb className={classes.iconSize} alt="mongodb logo" />
+              <SiChakraui className={classes.iconSize} alt="chakra-ui logo" />
+              <SiMaterialui
+                className={classes.iconSize}
+                alt="material-ui logo"
+              />
+              <SiAntdesign className={classes.iconSize} alt="ant-design logo" />
+              <SiVisualstudiocode
+                className={classes.iconSize}
+                alt="vscode logo"
+              />
+              <SiVercel className={classes.iconSize} alt="vercel logo" />
+              <SiHeroku className={classes.iconSize} alt="heroku logo" />
+              <SiNetlify className={classes.iconSize} alt="netlify logo" />
             </SimpleGrid>
           </Box>
         </SimpleGrid>
