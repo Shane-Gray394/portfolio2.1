@@ -15,7 +15,23 @@ export const Footer = () => {
       textAlign="center"
     >
       <Text color="#f7f5fb" maxWidth="80%">
-        Created by Shane Gray © 2022 ❙ Logo Created by William Paris © 2021
+        Created by{' '}
+        <a
+          href="https://www.linkedin.com/in/shanegray394/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+          Shane Gray © 2022{' '}
+        </a>
+        ❙ Logo Created by{' '}
+        <a
+          href="https://www.linkedin.com/in/william-paris-jr-692415154/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          William Paris © 2021
+        </a>
       </Text>
     </Flex>
   );
