@@ -38,16 +38,16 @@ export const About = () => {
         borderRadius={8}
         boxShadow="dark-lg"
         backgroundColor="#81b29a"
-        height={['70vh', '70vh']}
+        height={['70vh', '80vh']}
         overflow="scroll"
         className="scroll"
         width={['80%', '60%']}
       >
-        <SimpleGrid columns={{ lg: 2, sm: 1 }} spacing={10}>
+        <SimpleGrid columns={[1, 1, 1, 1, 2]} spacing={10}>
           <Box align="center">
             <Image
-              borderRadius={['115px', '200px']}
-              boxSize={['230px', '400px']}
+              borderRadius={['115px', '175px']}
+              boxSize={['230px', '350px']}
               objectFit="cover"
               src="/image/me.png"
               aria-label="pic of me"
@@ -81,10 +81,18 @@ export const About = () => {
                 the world of tech.
               </Text>
             </Stack>
-            <Heading pb="3%" pt="1%">
-              Technologies
-            </Heading>
-            <SimpleGrid columns={[3, 3, 4, 4, 6]}>
+          </Box>
+          <Box
+            width={['240px', '285px', '400px', '525px', '700px', '1075px']}
+            background="#f4f1de"
+            p="5% 2%"
+            borderRadius={8}
+            boxShadow="dark-lg"
+            textAlign="center"
+            mr={['0%', '15%']}
+          >
+            <Heading pb="5%">Technologies</Heading>
+            <SimpleGrid columns={[3, 3, 5, 6, 9]}>
               <AiFillGithub
                 className={classes.iconSize}
                 aria-label="github logo"

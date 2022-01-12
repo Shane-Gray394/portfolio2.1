@@ -30,12 +30,12 @@ export const Header = () => {
       w="100%"
       pt="25"
       pb="25"
-      height={['20vh', '15vh']}
+      height={['17.5vh', '12.5vh']}
     >
       <Image src="/image/logo.png" alt="logo" pl="10" />
       {isSmallerThan ? (
         <Menu>
-          <MenuButton mt="6" mr="3" as={Button} rightIcon={<ChevronDownIcon />}>
+          <MenuButton mt="3" mr="3" as={Button} rightIcon={<ChevronDownIcon />}>
             Menu
           </MenuButton>
           <MenuList backgroundColor="#f4f1de">
