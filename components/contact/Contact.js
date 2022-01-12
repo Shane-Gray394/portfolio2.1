@@ -62,7 +62,7 @@ export const Contact = () => {
         width={['80%', '40%']}
         mt={['25%', '10%']}
       >
-        <Stack spacing={[10, 4]}>
+        <Stack spacing={[8, 4]}>
           <a
             href="https://www.linkedin.com/in/shanegray394/"
             target="_blank"
