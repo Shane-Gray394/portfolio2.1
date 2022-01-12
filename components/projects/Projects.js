@@ -9,7 +9,6 @@ export const Projects = () => {
   return (
     <Flex className={classes.scrollSnapChild} justify="center">
       <Flex
-        p={8}
         mt={[16, 16]}
         borderWidth={1}
         borderRadius={8}
@@ -21,7 +20,7 @@ export const Projects = () => {
         width={['80%', '80%']}
         justify="center"
       >
-        <SimpleGrid columns={{ xl: 3, lg: 2, md: 1 }} spacing={6}>
+        <SimpleGrid columns={{ xl: 2, lg: 2, md: 1 }} spacing={6}>
           {projects.map((project) => {
             return <Project key={project.id} project={project} />;
           })}

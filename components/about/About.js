@@ -38,13 +38,15 @@ export const About = () => {
         borderRadius={8}
         boxShadow="dark-lg"
         backgroundColor="#81b29a"
-        height={['70vh', '80vh']}
+        height={['70vh', '77.5vh']}
         overflow="scroll"
         className="scroll"
         width={['80%', '60%']}
       >
         <SimpleGrid columns={[1, 1, 1, 1, 2]} spacing={10}>
           <Box align="center">
+            <Heading>Shane Gray</Heading>
+            <Text pb={['10%', '5%']}>Full Stack Software Engineer</Text>
             <Image
               borderRadius={['115px', '175px']}
               boxSize={['230px', '350px']}
@@ -90,8 +92,9 @@ export const About = () => {
             boxShadow="dark-lg"
             textAlign="center"
             mr={['0%', '15%']}
+            pl="8%"
           >
-            <Heading pb="5%">Technologies</Heading>
+            {/* <Heading pb="5%">Technologies</Heading> */}
             <SimpleGrid columns={[3, 3, 5, 6, 9]}>
               <AiFillGithub
                 className={classes.iconSize}
