@@ -52,7 +52,7 @@ export const About = () => {
               boxSize={['230px', '400px']}
               objectFit="cover"
               src="/image/me.png"
-              alt="pic of me"
+              aria-label="pic of me"
               boxShadow="dark-lg"
               align="top"
             />
@@ -87,36 +87,57 @@ export const About = () => {
               Technologies
             </Heading>
             <SimpleGrid columns={[3, 6]}>
-              <AiFillGithub className={classes.iconSize} alt="github logo" />
-              <DiGit className={classes.iconSize} alt="git logo" />
-              <FaReact className={classes.iconSize} alt="react logo" />
+              <AiFillGithub
+                className={classes.iconSize}
+                aria-label="github logo"
+              />
+              <DiGit className={classes.iconSize} aria-label="git logo" />
+              <FaReact className={classes.iconSize} aria-label="react logo" />
               <SiJavascript
                 className={classes.iconSize}
-                alt="javascript logo"
+                aria-label="javascript logo"
               />
-              <SiCss3 className={classes.iconSize} alt="css3 logo" />
-              <SiHtml5 className={classes.iconSize} alt="html5 logo" />
-              <SiNodedotjs className={classes.iconSize} alt="nodejs logo" />
-              <SiNextdotjs className={classes.iconSize} alt="nextjs logo" />
+              <SiCss3 className={classes.iconSize} aria-label="css3 logo" />
+              <SiHtml5 className={classes.iconSize} aria-label="html5 logo" />
+              <SiNodedotjs
+                className={classes.iconSize}
+                aria-label="nodejs logo"
+              />
+              <SiNextdotjs
+                className={classes.iconSize}
+                aria-label="nextjs logo"
+              />
               <SiPostgresql
                 className={classes.iconSize}
-                alt="postgresql logo"
+                aria-label="postgresql logo"
               />
-              <SiSqlite className={classes.iconSize} alt="sqlite logo" />
-              <SiMongodb className={classes.iconSize} alt="mongodb logo" />
-              <SiChakraui className={classes.iconSize} alt="chakra-ui logo" />
+              <SiSqlite className={classes.iconSize} aria-label="sqlite logo" />
+              <SiMongodb
+                className={classes.iconSize}
+                aria-label="mongodb logo"
+              />
+              <SiChakraui
+                className={classes.iconSize}
+                aria-label="chakra-ui logo"
+              />
               <SiMaterialui
                 className={classes.iconSize}
-                alt="material-ui logo"
+                aria-label="material-ui logo"
               />
-              <SiAntdesign className={classes.iconSize} alt="ant-design logo" />
+              <SiAntdesign
+                className={classes.iconSize}
+                aria-label="ant-design logo"
+              />
               <SiVisualstudiocode
                 className={classes.iconSize}
-                alt="vscode logo"
+                aria-label="vscode logo"
               />
-              <SiVercel className={classes.iconSize} alt="vercel logo" />
-              <SiHeroku className={classes.iconSize} alt="heroku logo" />
-              <SiNetlify className={classes.iconSize} alt="netlify logo" />
+              <SiVercel className={classes.iconSize} aria-label="vercel logo" />
+              <SiHeroku className={classes.iconSize} aria-label="heroku logo" />
+              <SiNetlify
+                className={classes.iconSize}
+                aria-label="netlify logo"
+              />
             </SimpleGrid>
           </Box>
         </SimpleGrid>
