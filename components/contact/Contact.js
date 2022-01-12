@@ -51,7 +51,7 @@ export const Contact = () => {
     <Flex className={classes.scrollSnapChild} justify="center" height="85vh">
       <Flex
         justify="center"
-        pt="3%"
+        pt={['10%', '3%']}
         borderWidth={1}
         borderRadius={8}
         boxShadow="dark-lg"
@@ -60,7 +60,7 @@ export const Contact = () => {
         overflow="scroll"
         className="scroll"
         width={['80%', '40%']}
-        mt="10%"
+        mt={['25%', '10%']}
       >
         <Stack>
           <a

@@ -76,7 +76,8 @@ export const About = () => {
             <Heading pb="3%" pt="1%">
               Technologies
             </Heading>
-            <Flex justify="center">
+            {/* <Flex justify="center"> */}
+            <SimpleGrid columns={[3, 7]}>
               <AiFillGithub className={classes.iconSize} />
               <DiGit className={classes.iconSize} />
               <FaReact className={classes.iconSize} />
@@ -84,8 +85,8 @@ export const About = () => {
               <SiCss3 className={classes.iconSize} />
               <SiHtml5 className={classes.iconSize} />
               <SiNodedotjs className={classes.iconSize} />
-            </Flex>
-            <Flex justify="center">
+              {/* </Flex>
+            <Flex justify="center"> */}
               <SiNextdotjs className={classes.iconSize} />
               <SiPostgresql className={classes.iconSize} />
               <SiSqlite className={classes.iconSize} />
@@ -93,7 +94,8 @@ export const About = () => {
               <SiChakraui className={classes.iconSize} />
               <SiMaterialui className={classes.iconSize} />
               <SiAntdesign className={classes.iconSize} />
-            </Flex>
+              {/* </Flex> */}
+            </SimpleGrid>
           </Box>
         </SimpleGrid>
       </Box>
