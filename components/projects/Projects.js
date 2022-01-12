@@ -17,7 +17,7 @@ export const Projects = () => {
         height="85vh"
         overflow="scroll"
         className="scroll"
-        width={['80%', '80%']}
+        width={['80%']}
         justify="center"
         p={8}
       >
