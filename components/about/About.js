@@ -38,7 +38,7 @@ export const About = () => {
         borderRadius={8}
         boxShadow="dark-lg"
         backgroundColor="#81b29a"
-        height={['70vh', '77.5vh']}
+        height={['70vh', '80vh']}
         overflow="scroll"
         className="scroll"
         width={['80%', '60%']}
@@ -95,7 +95,7 @@ export const About = () => {
             pl="8%"
           >
             {/* <Heading pb="5%">Technologies</Heading> */}
-            <SimpleGrid columns={[3, 3, 5, 6, 9]}>
+            <SimpleGrid columns={[3, 3, 5, 6, 9]} spacing={3}>
               <AiFillGithub
                 className={classes.iconSize}
                 aria-label="github logo"
