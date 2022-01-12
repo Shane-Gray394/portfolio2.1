@@ -66,7 +66,7 @@ export const About = () => {
             textAlign="center"
             mr={['0%', '15%']}
           >
-            <Stack>
+            <Stack spacing={7}>
               <Heading pb="2%">About Me</Heading>
               <Text>
                 In everything I have ever done, I have always sought to learn
@@ -85,7 +85,7 @@ export const About = () => {
             </Stack>
           </Box>
           <Box
-            width={['240px', '285px', '400px', '525px', '700px', '1075px']}
+            width={['100%', '100%', '100%', '100%', '208%', '207.5%']}
             background="#f4f1de"
             p="5% 2%"
             borderRadius={8}
