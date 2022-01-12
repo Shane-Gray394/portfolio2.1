@@ -12,7 +12,7 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/images/apple-touch-icon.png"
+            href="/image/apple-touch-icon.png"
           />
           <link
             rel="icon"
@@ -24,7 +24,7 @@ class MyDocument extends Document {
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/images/favicon-16x16.png"
+            href="/image/favicon-16x16.png"
           />
           <link rel="manifest" href="/site.webmanifest" />
           <meta name="msapplication-TileColor" content="#da532c" />

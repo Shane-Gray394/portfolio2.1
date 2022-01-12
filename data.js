@@ -1,7 +1,7 @@
 export const data = [
   {
     title: 'Potluck Planner',
-    image: 'potluck.png',
+    image: '/image/potluck.png',
     webURL: 'https://potluck-planning.vercel.app/',
     gitHubURL: 'https://github.com/Shane-Gray394/front-end-1',
     description:
@@ -10,7 +10,7 @@ export const data = [
   },
   {
     title: 'Anywhere Fitness API',
-    image: 'backend.png',
+    image: '/image/backend.png',
     webURL: 'https://anywhere-fitness-back-end-2021.herokuapp.com/',
     gitHubURL: 'https://github.com/anywhere-fitness-2-bw-ft/back-end',
     description:
@@ -19,7 +19,7 @@ export const data = [
   },
   {
     title: 'Garden of Eden',
-    image: 'plants.png',
+    image: '/image/plants.png',
     webURL: 'https://front-end-ijg2273o2-shane-gray394.vercel.app/',
     gitHubURL: 'https://github.com/build-week-ft-water-my-plants-4/front-end',
     description:
@@ -28,7 +28,7 @@ export const data = [
   },
   {
     title: 'Mobile Weather App',
-    image: 'weatherapp.png',
+    image: '/image/weatherapp.png',
     webURL: 'https://mobile-weather.vercel.app/',
     gitHubURL: 'https://github.com/Shane-Gray394/weather',
     description:

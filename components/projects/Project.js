@@ -98,39 +98,3 @@ export const Project = (props) => {
     </Center>
   );
 };
-
-// <Flex
-// height="40vh"
-// align="center"
-// direction="column"
-// boxShadow="dark-lg"
-// borderWidth={1}
-// borderRadius={8}
-// textAlign="center"
-// background="#fff"
-// >
-// <Heading fontSize="xx-large" color="#000">
-//   {title}
-// </Heading>
-// <Image
-//   borderRadius={8}
-//   boxSize="250px"
-//   objectFit="cover"
-//   src={image}
-//   alt="project picture"
-//   align="top"
-//   margin="15% 0"
-// />
-// <ButtonGroup isAttached>
-//   <a href={webURL} target="_blank" rel="noreferrer">
-//     <Button background="lightgray" variant="solid" mr="-1">
-//       Website
-//     </Button>
-//   </a>
-//   <a href={gitHubURL} target="_blank" rel="noreferrer">
-//     <Button background="lightgray" variant="solid" ml="-1">
-//       GitHub
-//     </Button>
-//   </a>
-// </ButtonGroup>
-// </Flex>
