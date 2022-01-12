@@ -94,8 +94,7 @@ export const About = () => {
             mr={['0%', '15%']}
             pl="8%"
           >
-            {/* <Heading pb="5%">Technologies</Heading> */}
-            <SimpleGrid columns={[3, 3, 5, 6, 9]} spacing={3}>
+            <SimpleGrid columns={[3, 4, 5, 6, 9]} spacing={3}>
               <AiFillGithub
                 className={classes.iconSize}
                 aria-label="github logo"
