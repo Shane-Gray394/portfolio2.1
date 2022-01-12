@@ -7,6 +7,7 @@ import {
   Text,
   Heading,
   Spacer,
+  Stack,
 } from '@chakra-ui/react';
 import classes from './About.module.css';
 import {
@@ -21,6 +22,10 @@ import {
   SiChakraui,
   SiMaterialui,
   SiAntdesign,
+  SiVisualstudiocode,
+  SiVercel,
+  SiHeroku,
+  SiNetlify,
 } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 import { DiGit } from 'react-icons/di';
@@ -28,14 +33,14 @@ import { FaReact } from 'react-icons/fa';
 
 export const About = () => {
   return (
-    <Flex justify="space-evenly" pt={[30, 100]}>
+    <Flex justify="space-evenly" pt={[30, 10]}>
       <Box
         p={8}
         borderWidth={1}
         borderRadius={8}
         boxShadow="dark-lg"
         backgroundColor="#81b29a"
-        height={['70vh', '50vh']}
+        height={['70vh', '70vh']}
         overflow="scroll"
         className="scroll"
         width={['80%', '60%']}
@@ -61,23 +66,27 @@ export const About = () => {
             textAlign="center"
             mr={['0%', '15%']}
           >
-            <Heading pb="2%">About Me</Heading>
-            <Text>
-              My name is Shane Gray, and I&apos;m a web developer from La
-              Grange, Kentucky. I&apos;m currently attending Bloom Institute of
-              Technology (formerly Lambda School) for Full Stack Web
-              Development.
-            </Text>
-            <Text>
-              This site as you see it is made from a bit of what I&apos;ve
-              learned thus far. It will be updated throughout my time here, as I
-              learn more.
-            </Text>
+            <Stack>
+              <Heading pb="2%">About Me</Heading>
+              <Text>
+                In everything I have ever done, I have always sought to learn
+                the most I could, as fast as I could, and with the best possible
+                practices in mind.
+              </Text>
+              <Text>
+                This mindset and way of approaching life and problems that need
+                solving has always put me in a forward position in any endeavor
+                I pursue.
+              </Text>
+              <Text>
+                Now I aim to bring that ideology with me on my adventure into
+                the world of tech.
+              </Text>
+            </Stack>
             <Heading pb="3%" pt="1%">
               Technologies
             </Heading>
-            {/* <Flex justify="center"> */}
-            <SimpleGrid columns={[3, 7]}>
+            <SimpleGrid columns={[3, 6]}>
               <AiFillGithub className={classes.iconSize} />
               <DiGit className={classes.iconSize} />
               <FaReact className={classes.iconSize} />
@@ -85,8 +94,6 @@ export const About = () => {
               <SiCss3 className={classes.iconSize} />
               <SiHtml5 className={classes.iconSize} />
               <SiNodedotjs className={classes.iconSize} />
-              {/* </Flex>
-            <Flex justify="center"> */}
               <SiNextdotjs className={classes.iconSize} />
               <SiPostgresql className={classes.iconSize} />
               <SiSqlite className={classes.iconSize} />
@@ -94,7 +101,10 @@ export const About = () => {
               <SiChakraui className={classes.iconSize} />
               <SiMaterialui className={classes.iconSize} />
               <SiAntdesign className={classes.iconSize} />
-              {/* </Flex> */}
+              <SiVisualstudiocode className={classes.iconSize} />
+              <SiVercel className={classes.iconSize} />
+              <SiHeroku className={classes.iconSize} />
+              <SiNetlify className={classes.iconSize} />
             </SimpleGrid>
           </Box>
         </SimpleGrid>

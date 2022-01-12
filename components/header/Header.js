@@ -32,7 +32,7 @@ export const Header = () => {
       <Image src="logo.png" alt="logo" pl="10" />
       {isSmallerThan ? (
         <Menu>
-          <MenuButton mr="3" as={Button} rightIcon={<ChevronDownIcon />}>
+          <MenuButton mt="6" mr="3" as={Button} rightIcon={<ChevronDownIcon />}>
             Menu
           </MenuButton>
           <MenuList backgroundColor="#f4f1de">
@@ -60,36 +60,6 @@ export const Header = () => {
           </Button>
         </ButtonGroup>
       )}
-      {/* {isLargerThan30 ? (
-        <ButtonGroup spacing="10" mr="20">
-          <Button variant="link">
-            <Link href="#about">About</Link>
-          </Button>
-          <Button variant="link">
-            <Link href="#projects">Projects</Link>
-          </Button>
-          <Button variant="link">
-            <Link href="#contact">Contact</Link>
-          </Button>
-        </ButtonGroup>
-      ) : (
-        <Menu>
-          <MenuButton mr="3" as={Button} rightIcon={<ChevronDownIcon />}>
-            Menu
-          </MenuButton>
-          <MenuList>
-            <Link href="#about" passHref>
-              <MenuItem as="a">About</MenuItem>
-            </Link>
-            <Link href="#projects" passHref>
-              <MenuItem as="a">Projects</MenuItem>
-            </Link>
-            <Link href="#contact" passHref>
-              <MenuItem as="a">Contact</MenuItem>
-            </Link>
-          </MenuList>
-        </Menu>
-      )} */}
     </Flex>
   );
 };
