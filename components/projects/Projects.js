@@ -19,7 +19,7 @@ export const Projects = () => {
         className="scroll"
         width={['80%']}
         justify="center"
-        p={8}
+        p={5}
       >
         <SimpleGrid columns={{ xl: 2, lg: 2, md: 1, sm: 1 }} spacing={4}>
           {projects.map((project) => {
