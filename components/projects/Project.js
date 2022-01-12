@@ -6,11 +6,12 @@ import {
   Heading,
   Center,
   Stack,
+  Badge,
   useColorModeValue,
 } from '@chakra-ui/react';
 
 export const Project = (props) => {
-  const { title, image, webURL, gitHubURL, description } = props.project;
+  const { title, image, webURL, gitHubURL, description, tags } = props.project;
   return (
     <Center py={6}>
       <Stack
@@ -32,6 +33,7 @@ export const Project = (props) => {
             src={image}
             alt="website photo"
             align="left"
+            borderRadius={10}
           />
         </Flex>
         <Stack
@@ -43,28 +45,28 @@ export const Project = (props) => {
           p={1}
           pt={2}
         >
-          <Heading fontSize={'2xl'} fontFamily={'body'}>
+          <Heading fontSize="2xl" fontFamily="body">
             {title}
           </Heading>
 
-          <Text textAlign={'center'} px={3}>
+          <Text textAlign="center" px={3}>
             {description}
           </Text>
 
           <Stack
-            width={'100%'}
-            mt={'2rem'}
-            direction={'row'}
+            width="100%"
+            mt="2rem"
+            direction="row"
             padding={2}
-            justifyContent={'space-between'}
-            alignItems={'center'}
+            justifyContent="space-between"
+            alignItems="center"
           >
             <a href={webURL} target="_blank" rel="noreferrer">
               <Button
                 bg="#f7f5fb"
                 flex={1}
-                fontSize={'sm'}
-                rounded={'full'}
+                fontSize="sm"
+                rounded="full"
                 _focus={{
                   bg: 'gray.200',
                 }}
@@ -75,10 +77,10 @@ export const Project = (props) => {
             <a href={gitHubURL} target="_blank" rel="noreferrer">
               <Button
                 flex={1}
-                fontSize={'sm'}
-                rounded={'full'}
+                fontSize="sm"
+                rounded="full"
                 bg="#003049"
-                color={'white'}
+                color="white"
                 boxShadow={
                   '0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)'
                 }
@@ -92,6 +94,23 @@ export const Project = (props) => {
                 Repo
               </Button>
             </a>
+          </Stack>
+          <Stack direction="row">
+            {tags.map((tag) => {
+              return (
+                <Badge
+                  key={Math.random()}
+                  px={2}
+                  py={1}
+                  bg="gray.200"
+                  fontWeight="400"
+                  borderRadius={4}
+                  fontFamily="body"
+                >
+                  {tag}
+                </Badge>
+              );
+            })}
           </Stack>
         </Stack>
       </Stack>

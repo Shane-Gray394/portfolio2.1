@@ -6,6 +6,7 @@ export const data = [
     gitHubURL: 'https://github.com/Shane-Gray394/front-end-1',
     description:
       'An app that allows users to create events, invite people to events, and plan the meal preparation',
+    tags: ['#react', '#context', '#material ui'],
     id: 1,
   },
   {
@@ -15,6 +16,7 @@ export const data = [
     gitHubURL: 'https://github.com/anywhere-fitness-2-bw-ft/back-end',
     description:
       'API used to create and store users, and create and store class information created by fitness instructors.',
+    tags: ['#express', '#node', '#postgres'],
     id: 2,
   },
   {
@@ -24,6 +26,7 @@ export const data = [
     gitHubURL: 'https://github.com/build-week-ft-water-my-plants-4/front-end',
     description:
       'Customizable watering schedules, along with push notifications keep you on top of your plants needs.',
+    tags: ['#react', '#redux', '#css'],
     id: 3,
   },
   {
@@ -33,6 +36,7 @@ export const data = [
     gitHubURL: 'https://github.com/Shane-Gray394/weather',
     description:
       'Simple mobile weather app, one of the first things I learned to build.',
+    tags: ['#react', '#css'],
     id: 4,
   },
 ];
