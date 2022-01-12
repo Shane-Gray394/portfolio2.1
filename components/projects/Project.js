@@ -16,7 +16,7 @@ export const Project = (props) => {
       <Stack
         borderWidth="1px"
         borderRadius="lg"
-        w={{ sm: '100%', md: '540px' }}
+        w={{ sm: '90%', md: '540px' }}
         height={{ sm: '476px', md: '20rem' }}
         direction={{ base: 'column', md: 'row' }}
         bg={useColorModeValue('white', 'gray.900')}
@@ -27,7 +27,8 @@ export const Project = (props) => {
         <Flex flex={1}>
           <Image
             objectFit="cover"
-            boxSize="100%"
+            width={['100%']}
+            height={['25vh']}
             src={image}
             alt="website photo"
             align="left"

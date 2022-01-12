@@ -41,7 +41,7 @@ export const About = () => {
         height={['70vh', '80vh']}
         overflow="scroll"
         className="scroll"
-        width={['80%', '60%']}
+        width={['80%', '80%', '60%']}
       >
         <SimpleGrid columns={[1, 1, 1, 1, 2]} spacing={10}>
           <Box align="center">

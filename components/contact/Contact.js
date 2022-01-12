@@ -50,7 +50,7 @@ export const Contact = () => {
         height={['60vh', '40vh']}
         overflow="scroll"
         className="scroll"
-        width={['80%', '40%']}
+        width={['80%', '80%', '40%']}
         mt={['25%', '10%']}
       >
         <Stack spacing={[8, 4]}>
