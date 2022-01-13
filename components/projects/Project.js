@@ -8,6 +8,7 @@ import {
   Stack,
   Badge,
   useColorModeValue,
+  SimpleGrid,
 } from '@chakra-ui/react';
 
 export const Project = (props) => {
@@ -18,7 +19,7 @@ export const Project = (props) => {
         borderWidth="1px"
         borderRadius="lg"
         w={{ sm: '90%', md: '540px' }}
-        height={{ sm: '476px', md: '20rem' }}
+        height={{ sm: '575px', md: '20rem' }}
         direction={{ base: 'column', md: 'row' }}
         bg={useColorModeValue('white', 'gray.900')}
         boxShadow="dark-lg"
@@ -34,6 +35,7 @@ export const Project = (props) => {
             alt="website photo"
             align="left"
             borderRadius={10}
+            mt={7}
           />
         </Flex>
         <Stack
@@ -48,11 +50,9 @@ export const Project = (props) => {
           <Heading fontSize="2xl" fontFamily="body">
             {title}
           </Heading>
-
           <Text textAlign="center" px={3}>
             {description}
           </Text>
-
           <Stack
             width="100%"
             mt="2rem"
@@ -96,21 +96,23 @@ export const Project = (props) => {
             </a>
           </Stack>
           <Stack direction="row">
-            {tags.map((tag) => {
-              return (
-                <Badge
-                  key={Math.random()}
-                  px={2}
-                  py={1}
-                  bg="gray.200"
-                  fontWeight="400"
-                  borderRadius={4}
-                  fontFamily="body"
-                >
-                  {tag}
-                </Badge>
-              );
-            })}
+            <SimpleGrid columns={[2, 3]} spacing={2}>
+              {tags.map((tag) => {
+                return (
+                  <Badge
+                    key={Math.random()}
+                    px={2}
+                    py={1}
+                    bg="gray.200"
+                    fontWeight="400"
+                    borderRadius={4}
+                    fontFamily="body"
+                  >
+                    {tag}
+                  </Badge>
+                );
+              })}
+            </SimpleGrid>
           </Stack>
         </Stack>
       </Stack>
