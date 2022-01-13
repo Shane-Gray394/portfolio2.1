@@ -21,7 +21,7 @@ export const Projects = () => {
         justify="center"
         p={5}
       >
-        <SimpleGrid columns={{ xl: 2, lg: 2, md: 1, sm: 1 }} spacing={4}>
+        <SimpleGrid columns={{ xl: 2, lg: 2, md: 1, sm: 1 }} spacing={6}>
           {projects.map((project) => {
             return <Project key={project.id} project={project} />;
           })}
