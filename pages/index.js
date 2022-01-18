@@ -9,18 +9,18 @@ export default function Home() {
         <title>Shane Gray&apos;s Portfolio</title>
       </Head>
       <Box backgroundColor="#f4f1de">
+        <Header />
         <Box id="about" height="100vh" className="scrollSnapChild">
           <Box>
-            <Header />
             <About />
           </Box>
         </Box>
-        <Box id="projects" height="100vh" className="scrollSnapChild">
+        <Box id="projects" height="100vh">
           <Box>
             <Projects />
           </Box>
         </Box>
-        <Box id="contact" height="100vh" className="scrollSnapChild">
+        <Box id="contact" height="100vh">
           <Flex direction="column">
             <Contact />
             <Footer />

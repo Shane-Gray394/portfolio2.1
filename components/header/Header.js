@@ -22,15 +22,16 @@ export const Header = () => {
   return (
     <Flex
       justify="space-between"
-      className={classes.scrollSnapChild}
       backgroundColor="#003049"
       borderWidth="full"
       borderBottomRadius={3}
       boxShadow="lg"
-      w="100%"
       pt="25"
       pb="25"
       height={['17.5vh', '12.5vh']}
+      position="fixed"
+      top="0"
+      width="100%"
     >
       <Image src="/image/logo.png" alt="logo" pl="10" />
       {isSmallerThan ? (

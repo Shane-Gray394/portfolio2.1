@@ -7,9 +7,13 @@ import { Project } from './Project';
 export const Projects = () => {
   const [projects] = useState(data);
   return (
-    <Flex className={classes.scrollSnapChild} justify="center">
+    <Flex
+      className={classes.scrollSnapChild}
+      justify="center"
+      paddingTop={['4rem']}
+    >
       <Flex
-        mt={[16, 16]}
+        mt={[16]}
         borderWidth={1}
         borderRadius={8}
         boxShadow="dark-lg"

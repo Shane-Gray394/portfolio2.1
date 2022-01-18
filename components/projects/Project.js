@@ -107,6 +107,7 @@ export const Project = (props) => {
                     fontWeight="400"
                     borderRadius={4}
                     fontFamily="body"
+                    minWidth="80px"
                   >
                     {tag}
                   </Badge>

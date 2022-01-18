@@ -31,7 +31,7 @@ import { FaReact } from 'react-icons/fa';
 
 export const About = () => {
   return (
-    <Flex justify="space-evenly" pt={[30, 10]}>
+    <Flex justify="space-evenly" pt={[40]} className={classes.scrollSnapChild}>
       <Box
         p={8}
         borderWidth={1}

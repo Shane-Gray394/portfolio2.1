@@ -1,3 +1,6 @@
 .iconSize {
   font-size: 4em;
 }
+.scrollSnapChild {
+  scroll-snap-align: start;
+}

@@ -39,7 +39,12 @@ export const Contact = () => {
   };
 
   return (
-    <Flex className={classes.scrollSnapChild} justify="center" height="85vh">
+    <Flex
+      className={classes.scrollSnapChild}
+      paddingTop={['3rem', '0']}
+      justify="center"
+      height="85vh"
+    >
       <Flex
         justify="center"
         pt={['10%', '7%', '5%', '4%', '3%']}
