@@ -1,4 +1,4 @@
-import { Header } from './header/Header';
+import { Header } from './footer/header/Header';
 import { About } from './about/About';
 import { Projects } from './projects/Projects';
 import { Contact } from './contact/Contact';

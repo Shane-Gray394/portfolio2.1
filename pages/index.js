@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Box, Flex } from '@chakra-ui/react';
-import { Header, About, Projects, Contact, Footer } from '../components';
+import { Header, About, Projects, Contact, Footer } from '@components';
 
 export default function Home() {
   return (
